@@ -1,0 +1,146 @@
+.flexcontainer{
+    display: flex;
+    border: 2px solid rgb(26, 12, 31);
+    height: 45hv;
+    flex-direction: row;
+
+}
+.flex-item{
+    background-color: brown;
+    border: 2px solid black;
+    margin: 13px;
+    padding: 12px;
+    width: 125px;
+    height: 120px;
+}
+.flexcontainer1{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 2px solid rgb(34, 4, 4);
+}
+.flexcontainer2{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(34, 4, 4);
+}
+.flexcontainer3{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid rgb(41, 10, 10);
+}
+.flexbox{
+    display: flex;
+    border: 2px solid rgb(7, 6, 6);
+    justify-content: center;
+    
+}
+.flex-item1{
+    background-color: aqua;
+    border: 2px solid saddlebrown;
+    width: 125px;
+    height: 120px;
+    margin: 13px;
+    padding: 12px;
+
+}
+.flexbox1{
+    display: flex;
+    border: 2px solid rgb(7, 6, 6);
+    justify-content: flex-start;
+
+}
+.flexbox2{
+    display: flex;
+    border: 2px solid rgb(7, 6, 6);
+    justify-content: flex-end;
+
+}
+.flexbox3{
+    display: flex;
+    border: 2px solid rgb(7, 6, 6);
+    justify-content:space-around;
+
+}
+.flexbox4{
+    display: flex;
+    border: 2px solid rgb(7, 6, 6);
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+}
+.flexdaba{
+    display: flex;
+  height: 45vh;
+  border: 2px solid seagreen;
+  align-items: center;
+}
+.flexdaba1{
+    display: flex;
+  height: 45vh;
+  border: 2px solid seagreen;
+  align-items: flex-end;
+}
+.flexdaba2{
+    display: flex;
+  height: 45vh;
+  border: 2px solid seagreen;
+  align-items: baseline;
+}
+.flex3{
+    display: flex;
+  height: 45vh;
+  border: 2px solid rgb(122, 139, 46);
+  align-content: space-between;
+}
+.flex4{
+    display: flex;
+  height: 45vh;
+  border: 2px solid rgb(122, 139, 46);
+  align-content: center;
+}
+.flex-itemcon{
+    display: flex;
+    align-items: stretch;
+    
+    border: 2px solid black;
+}
+.flex-itemcon>div {
+    background-color: gray;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flexitem11{
+    display: flex;
+    border: 2px solid rgb(214, 137, 22);
+    
+  
+    background-color: #c22b2b;
+  }
+  .flexitem11 > div {
+    background-color: rgb(30, 255, 105);
+    color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flexitem12{
+    display: flex;
+    border: 2px solid rgb(214, 22, 128);
+    
+  
+    background-color: #c22b2b;
+  }
+  .flexitem12 > div {
+    background-color: rgb(255, 30, 105);
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }

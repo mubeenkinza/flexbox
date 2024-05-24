@@ -1,0 +1,42 @@
+flex-box:
+to initiliza a flex -container set the property of display=flex
+The flex-direction Property:
+The flex-direction property defines in which direction the container will move or wants to stack the flex items
+flex-direction: column;
+*flex-direction: column-reverse;{from bottom to top}
+*flex-direction: row;
+*flex-direction: row-reverse;(but from right to left):
+The flex-wrap Property:
+The flex-wrap property specifies whether the flex items should wrap or not. flex-wrap: wrap;
+The justify-content Property:
+The justify-content property is used to align the flex items:
+1 justify-content: center;
+2 flex-start{ligns the flex items at the beginning of the container}
+3 flex-end value aligns the flex items at the end of the container:
+4 space-around value displays the flex items with space before, between, and after the lines 
+5 space-between value displays the flex items with space between the lines:
+The align-items Property
+The align-items property is used to align the flex items.
+1 The center value aligns the flex items in the middle of the container:{align-items: center;}
+2 flex-start value aligns the flex items at the top of the container:align-items: flex-start;
+3 flex-end value aligns the flex items at the bottom of the container: align-items: flex-end
+4 baseline value aligns the flex items such as their baselines aligns: align-items: baseline;
+align-content Property:
+The align-content property is used to align the flex lines.
+1 space-between value displays the flex lines with equal space between them:
+2 space-around value displays the flex lines with space before, between, and after them
+3 center value displays the flex lines in the middle of the container
+4 flex-start value displays the flex lines at the start of the container:
+The flex item properties are:
+
+1 The order Property:
+The order property specifies the order of the flex items.
+2 The flex-grow Property
+The flex-grow property specifies how much a flex item will grow relative to the rest of the flex items.
+3 The flex-shrink Property
+The flex-shrink property specifies how much a flex item will shrink relative to the rest of the flex items.{ <div style="flex-shrink: 0"}
+4 The flex Property
+The flex property is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties.
+5 The flex-basis Property
+The flex-basis property specifies the initial length of a flex item.{<div style="flex-basis: 200px"}
+
